@@ -19,7 +19,6 @@ describe("getUser", () => {
         expect(users).toBeUndefined(); 
     })
     });
-const getUsers = require ("./data.js")
 describe("getUser", () => {
     it('it should find a user by their id', () => { 
         const users = getUsers[2]
