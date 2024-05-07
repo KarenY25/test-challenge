@@ -1,7 +1,6 @@
-///
 
-const DNA = ["CTAG", "CAGT", "CGTA", "CATG"]
-  
+const DNA = require("./dna");
+
 function isvalidDNA (DNA) { 
     if (DNA === "") {
         return false; 
@@ -19,5 +18,3 @@ function isvalidDNA (DNA) {
     console.log(isvalidDNA(""));
     
     module.exports = {isvalidDNA}; 
-    
-module.exports = {DNA}
