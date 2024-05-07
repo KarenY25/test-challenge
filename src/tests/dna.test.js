@@ -3,7 +3,7 @@ const isvalidDNA = require("./DnaFunctions");
 
 describe ('isvalidDNA'), () => { 
     it('it should retrieve the correct user for a given string', () => { 
-        const DNA = DNA[0]; 
+        const DNA = DNA(0); 
         expect(DNA(1)).toEqual(DNA);
     });
 }
